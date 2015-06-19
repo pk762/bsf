@@ -1,0 +1,14 @@
+apply plugin: "java"
+apply plugin: "eclipse"
+apply plugin: "application"
+apply plugin: "checkstyle"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    
+    compile "commons-io:commons-io:2.4"
+    compile "mysql:mysql-connector-java:5.1.35"
+}
