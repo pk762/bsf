@@ -47,3 +47,13 @@ dependencies {
     
     compile fileTree(dir: "WebContent/WEB-INF/lib", include: '*.jar')
 }
+
+eclipse {
+
+    wtp {
+    
+        component {
+            resource deployPath: '/', sourcePath: '/WebContent'
+        }
+    }
+}
